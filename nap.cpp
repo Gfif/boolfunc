@@ -4,6 +4,6 @@ int main() {
     std::string s;
     std::cin >> s;
     bf a(s);
-    a.anf();
+    std::cout << a.NAP() << std::endl;
     return 0;
 }
